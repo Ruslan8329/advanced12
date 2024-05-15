@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchForm {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+}
+button:hover {
+  background-color: rgb(210, 122, 122);
+}
+
+.searchResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+}
+
+.movie {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+.movie:hover {
+  transform: scale(1.1);
+  background-color: rgb(203, 203, 240);
+}
+
+.movie img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.btnMore {
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+}
